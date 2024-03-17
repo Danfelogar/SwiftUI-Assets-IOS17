@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_Assets_IOS17App: App {
     var body: some Scene {
         WindowGroup {
-            SuperPowerScrollViews()
+            SearchBar()
         }
     }
 }

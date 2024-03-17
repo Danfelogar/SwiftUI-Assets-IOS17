@@ -7,20 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72A4AB7C2B8E6B190037EE3A /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A4AB7B2B8E6B190037EE3A /* SearchBar.swift */; };
+		72A4AB7E2B8E750A0037EE3A /* ModelGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A4AB7D2B8E750A0037EE3A /* ModelGlobal.swift */; };
 		72B52E352B7E94360009A03E /* LoadRemoteImgFromNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B52E342B7E94350009A03E /* LoadRemoteImgFromNetwork.swift */; };
+		72D12E572B8DAE2600EF3FF5 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D12E562B8DAE2600EF3FF5 /* PhotoPicker.swift */; };
 		72FB2AE22B7DBCA400A40FCB /* SwiftUI_Assets_IOS17App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FB2AE12B7DBCA400A40FCB /* SwiftUI_Assets_IOS17App.swift */; };
 		72FB2AE42B7DBCA400A40FCB /* SuperPowerScrollViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FB2AE32B7DBCA400A40FCB /* SuperPowerScrollViews.swift */; };
 		72FB2AE62B7DBCA500A40FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FB2AE52B7DBCA500A40FCB /* Assets.xcassets */; };
 		72FB2AE92B7DBCA500A40FCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FB2AE82B7DBCA500A40FCB /* Preview Assets.xcassets */; };
+		72FF66C62BA68DC1008739D0 /* Playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF66C52BA68DC1008739D0 /* Playground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72A4AB7B2B8E6B190037EE3A /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		72A4AB7D2B8E750A0037EE3A /* ModelGlobal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelGlobal.swift; sourceTree = "<group>"; };
 		72B52E342B7E94350009A03E /* LoadRemoteImgFromNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadRemoteImgFromNetwork.swift; sourceTree = "<group>"; };
+		72D12E562B8DAE2600EF3FF5 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 		72FB2ADE2B7DBCA400A40FCB /* SwiftUI-Assets-IOS17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Assets-IOS17.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72FB2AE12B7DBCA400A40FCB /* SwiftUI_Assets_IOS17App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Assets_IOS17App.swift; sourceTree = "<group>"; };
 		72FB2AE32B7DBCA400A40FCB /* SuperPowerScrollViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperPowerScrollViews.swift; sourceTree = "<group>"; };
 		72FB2AE52B7DBCA500A40FCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72FB2AE82B7DBCA500A40FCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72FF66C52BA68DC1008739D0 /* Playground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				72FB2AE12B7DBCA400A40FCB /* SwiftUI_Assets_IOS17App.swift */,
+				72B52E342B7E94350009A03E /* LoadRemoteImgFromNetwork.swift */,
+				72D12E562B8DAE2600EF3FF5 /* PhotoPicker.swift */,
+				72A4AB7B2B8E6B190037EE3A /* SearchBar.swift */,
 				72FB2AE32B7DBCA400A40FCB /* SuperPowerScrollViews.swift */,
 				72FB2AE52B7DBCA500A40FCB /* Assets.xcassets */,
 				72FB2AE72B7DBCA500A40FCB /* Preview Content */,
-				72B52E342B7E94350009A03E /* LoadRemoteImgFromNetwork.swift */,
+				72A4AB7D2B8E750A0037EE3A /* ModelGlobal.swift */,
+				72FF66C52BA68DC1008739D0 /* Playground.swift */,
 			);
 			path = "SwiftUI-Assets-IOS17";
 			sourceTree = "<group>";
@@ -140,7 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72A4AB7E2B8E750A0037EE3A /* ModelGlobal.swift in Sources */,
+				72D12E572B8DAE2600EF3FF5 /* PhotoPicker.swift in Sources */,
 				72B52E352B7E94360009A03E /* LoadRemoteImgFromNetwork.swift in Sources */,
+				72A4AB7C2B8E6B190037EE3A /* SearchBar.swift in Sources */,
+				72FF66C62BA68DC1008739D0 /* Playground.swift in Sources */,
 				72FB2AE42B7DBCA400A40FCB /* SuperPowerScrollViews.swift in Sources */,
 				72FB2AE22B7DBCA400A40FCB /* SwiftUI_Assets_IOS17App.swift in Sources */,
 			);
