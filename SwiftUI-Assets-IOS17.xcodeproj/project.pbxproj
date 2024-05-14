@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		721235452BF3185000B3C4DE /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721235442BF3185000B3C4DE /* BarChart.swift */; };
+		72810BB32BF294CE00AB634C /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72810BB22BF294CE00AB634C /* PieChart.swift */; };
 		72A4AB7C2B8E6B190037EE3A /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A4AB7B2B8E6B190037EE3A /* SearchBar.swift */; };
 		72A4AB7E2B8E750A0037EE3A /* ModelGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A4AB7D2B8E750A0037EE3A /* ModelGlobal.swift */; };
 		72B52E352B7E94360009A03E /* LoadRemoteImgFromNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B52E342B7E94350009A03E /* LoadRemoteImgFromNetwork.swift */; };
 		72D12E572B8DAE2600EF3FF5 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D12E562B8DAE2600EF3FF5 /* PhotoPicker.swift */; };
 		72D4CC2B2BDF16F700B82159 /* APICalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D4CC2A2BDF16F700B82159 /* APICalls.swift */; };
+		72F72AF92BF276B600230538 /* TipKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F72AF82BF276B600230538 /* TipKit.swift */; };
+		72F72AFC2BF280B900230538 /* AddColorTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F72AFB2BF280B900230538 /* AddColorTip.swift */; };
+		72F72AFE2BF2836B00230538 /* TipKitExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F72AFD2BF2836A00230538 /* TipKitExampleApp.swift */; };
 		72FB2AE22B7DBCA400A40FCB /* SwiftUI_Assets_IOS17App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FB2AE12B7DBCA400A40FCB /* SwiftUI_Assets_IOS17App.swift */; };
 		72FB2AE42B7DBCA400A40FCB /* SuperPowerScrollViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FB2AE32B7DBCA400A40FCB /* SuperPowerScrollViews.swift */; };
 		72FB2AE62B7DBCA500A40FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FB2AE52B7DBCA500A40FCB /* Assets.xcassets */; };
@@ -19,11 +24,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		721235442BF3185000B3C4DE /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		72810BB22BF294CE00AB634C /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
 		72A4AB7B2B8E6B190037EE3A /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		72A4AB7D2B8E750A0037EE3A /* ModelGlobal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelGlobal.swift; sourceTree = "<group>"; };
 		72B52E342B7E94350009A03E /* LoadRemoteImgFromNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadRemoteImgFromNetwork.swift; sourceTree = "<group>"; };
 		72D12E562B8DAE2600EF3FF5 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 		72D4CC2A2BDF16F700B82159 /* APICalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICalls.swift; sourceTree = "<group>"; };
+		72F72AF82BF276B600230538 /* TipKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipKit.swift; sourceTree = "<group>"; };
+		72F72AFB2BF280B900230538 /* AddColorTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddColorTip.swift; sourceTree = "<group>"; };
+		72F72AFD2BF2836A00230538 /* TipKitExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipKitExampleApp.swift; sourceTree = "<group>"; };
 		72FB2ADE2B7DBCA400A40FCB /* SwiftUI-Assets-IOS17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Assets-IOS17.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72FB2AE12B7DBCA400A40FCB /* SwiftUI_Assets_IOS17App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Assets_IOS17App.swift; sourceTree = "<group>"; };
 		72FB2AE32B7DBCA400A40FCB /* SuperPowerScrollViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperPowerScrollViews.swift; sourceTree = "<group>"; };
@@ -42,6 +52,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		721235462BF3186000B3C4DE /* BarChart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BarChart;
+			sourceTree = "<group>";
+		};
+		72810BB12BF2949500AB634C /* PieChart */ = {
+			isa = PBXGroup;
+			children = (
+				72810BB22BF294CE00AB634C /* PieChart.swift */,
+			);
+			path = PieChart;
+			sourceTree = "<group>";
+		};
+		72F72AFA2BF2807400230538 /* TipKit */ = {
+			isa = PBXGroup;
+			children = (
+				72F72AF82BF276B600230538 /* TipKit.swift */,
+				72F72AFB2BF280B900230538 /* AddColorTip.swift */,
+				72F72AFD2BF2836A00230538 /* TipKitExampleApp.swift */,
+			);
+			path = TipKit;
+			sourceTree = "<group>";
+		};
 		72FB2AD52B7DBCA400A40FCB = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +96,10 @@
 		72FB2AE02B7DBCA400A40FCB /* SwiftUI-Assets-IOS17 */ = {
 			isa = PBXGroup;
 			children = (
+				721235442BF3185000B3C4DE /* BarChart.swift */,
+				721235462BF3186000B3C4DE /* BarChart */,
+				72810BB12BF2949500AB634C /* PieChart */,
+				72F72AFA2BF2807400230538 /* TipKit */,
 				72FB2AE12B7DBCA400A40FCB /* SwiftUI_Assets_IOS17App.swift */,
 				72B52E342B7E94350009A03E /* LoadRemoteImgFromNetwork.swift */,
 				72D12E562B8DAE2600EF3FF5 /* PhotoPicker.swift */,
@@ -149,8 +188,13 @@
 				72B52E352B7E94360009A03E /* LoadRemoteImgFromNetwork.swift in Sources */,
 				72A4AB7C2B8E6B190037EE3A /* SearchBar.swift in Sources */,
 				72FF66C62BA68DC1008739D0 /* Playground.swift in Sources */,
+				72F72AFE2BF2836B00230538 /* TipKitExampleApp.swift in Sources */,
+				721235452BF3185000B3C4DE /* BarChart.swift in Sources */,
 				72FB2AE42B7DBCA400A40FCB /* SuperPowerScrollViews.swift in Sources */,
+				72F72AFC2BF280B900230538 /* AddColorTip.swift in Sources */,
+				72810BB32BF294CE00AB634C /* PieChart.swift in Sources */,
 				72FB2AE22B7DBCA400A40FCB /* SwiftUI_Assets_IOS17App.swift in Sources */,
+				72F72AF92BF276B600230538 /* TipKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

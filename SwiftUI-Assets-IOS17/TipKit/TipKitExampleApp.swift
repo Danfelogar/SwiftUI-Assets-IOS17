@@ -1,20 +1,21 @@
 //
-//  SwiftUI_Assets_IOS17App.swift
+//  TipKitExampleApp.swift
 //  SwiftUI-Assets-IOS17
 //
-//  Created by Daniel Felipe on 14/02/24.
+//  Created by Daniel Felipe on 13/05/24.
 //
 
 import SwiftUI
 import TipKit
 
-@main
-struct SwiftUI_Assets_IOS17App: App {
+//need this for run the example
+struct TipKitExampleApp: App {
+    
     var body: some Scene {
         WindowGroup {
             TipKit()
                 .task {
-                    try? Tips.resetDatastore()
+//                    try? Tips.resetDatastore()
                     try? Tips.configure([
 //                        .displayFrequency(.inmediate)
                         .datastoreLocation(.applicationDefault)
