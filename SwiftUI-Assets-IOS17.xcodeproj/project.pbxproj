@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		650F1AEC2C1BD1CA0086F89A /* NavigationStepperViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650F1AEB2C1BD1CA0086F89A /* NavigationStepperViewModel.swift */; };
 		654CD2812C1540BA001DB28F /* ToogleCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654CD2802C1540BA001DB28F /* ToogleCustom.swift */; };
 		654CD2842C1545FB001DB28F /* LazyGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654CD2832C1545FB001DB28F /* LazyGridView.swift */; };
 		654CD28B2C1567E1001DB28F /* StaticGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654CD28A2C1567E1001DB28F /* StaticGrid.swift */; };
 		654CD28D2C156F80001DB28F /* GroupBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654CD28C2C156F80001DB28F /* GroupBox.swift */; };
 		654CD2902C1578E7001DB28F /* TriggeredDifferentsAlerst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654CD28F2C1578E7001DB28F /* TriggeredDifferentsAlerst.swift */; };
+		65BE8CB22C1C052400897E60 /* NSExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BE8CB12C1C052400897E60 /* NSExample.swift */; };
+		65D1EBB92C1A984600EBD005 /* NavigationStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D1EBB82C1A984600EBD005 /* NavigationStepper.swift */; };
 		721235452BF3185000B3C4DE /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721235442BF3185000B3C4DE /* BarChart.swift */; };
 		72810BB32BF294CE00AB634C /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72810BB22BF294CE00AB634C /* PieChart.swift */; };
 		72A4AB7C2B8E6B190037EE3A /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A4AB7B2B8E6B190037EE3A /* SearchBar.swift */; };
@@ -30,11 +33,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		650F1AEB2C1BD1CA0086F89A /* NavigationStepperViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStepperViewModel.swift; sourceTree = "<group>"; };
 		654CD2802C1540BA001DB28F /* ToogleCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToogleCustom.swift; sourceTree = "<group>"; };
 		654CD2832C1545FB001DB28F /* LazyGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridView.swift; sourceTree = "<group>"; };
 		654CD28A2C1567E1001DB28F /* StaticGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticGrid.swift; sourceTree = "<group>"; };
 		654CD28C2C156F80001DB28F /* GroupBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBox.swift; sourceTree = "<group>"; };
 		654CD28F2C1578E7001DB28F /* TriggeredDifferentsAlerst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggeredDifferentsAlerst.swift; sourceTree = "<group>"; };
+		65BE8CB12C1C052400897E60 /* NSExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSExample.swift; sourceTree = "<group>"; };
+		65D1EBB82C1A984600EBD005 /* NavigationStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStepper.swift; sourceTree = "<group>"; };
 		721235442BF3185000B3C4DE /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
 		72810BB22BF294CE00AB634C /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
 		72A4AB7B2B8E6B190037EE3A /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
@@ -97,6 +103,14 @@
 			path = TriggeredDifferentsAlerst;
 			sourceTree = "<group>";
 		};
+		65D1EBBA2C1A985000EBD005 /* StepperComponent */ = {
+			isa = PBXGroup;
+			children = (
+				65D1EBB82C1A984600EBD005 /* NavigationStepper.swift */,
+			);
+			path = StepperComponent;
+			sourceTree = "<group>";
+		};
 		721235462BF3186000B3C4DE /* BarChart */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				72C41CF62BFAA38D003F0875 /* CustomEmptyStates.swift */,
+				650F1AEB2C1BD1CA0086F89A /* NavigationStepperViewModel.swift */,
+				65BE8CB12C1C052400897E60 /* NSExample.swift */,
 			);
 			path = CustomEmptyStates;
 			sourceTree = "<group>";
@@ -150,6 +166,7 @@
 		72FB2AE02B7DBCA400A40FCB /* SwiftUI-Assets-IOS17 */ = {
 			isa = PBXGroup;
 			children = (
+				65D1EBBA2C1A985000EBD005 /* StepperComponent */,
 				72C41CF82BFAA397003F0875 /* CustomEmptyStates */,
 				721235462BF3186000B3C4DE /* BarChart */,
 				72810BB12BF2949500AB634C /* PieChart */,
@@ -241,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72A4AB7E2B8E750A0037EE3A /* ModelGlobal.swift in Sources */,
+				65BE8CB22C1C052400897E60 /* NSExample.swift in Sources */,
 				72D12E572B8DAE2600EF3FF5 /* PhotoPicker.swift in Sources */,
 				654CD2812C1540BA001DB28F /* ToogleCustom.swift in Sources */,
 				72D4CC2B2BDF16F700B82159 /* APICalls.swift in Sources */,
@@ -254,9 +272,11 @@
 				72FB2AE42B7DBCA400A40FCB /* SuperPowerScrollViews.swift in Sources */,
 				72F72AFC2BF280B900230538 /* AddColorTip.swift in Sources */,
 				72810BB32BF294CE00AB634C /* PieChart.swift in Sources */,
+				650F1AEC2C1BD1CA0086F89A /* NavigationStepperViewModel.swift in Sources */,
 				72FB2AE22B7DBCA400A40FCB /* SwiftUI_Assets_IOS17App.swift in Sources */,
 				654CD2842C1545FB001DB28F /* LazyGridView.swift in Sources */,
 				72F72AF92BF276B600230538 /* TipKit.swift in Sources */,
+				65D1EBB92C1A984600EBD005 /* NavigationStepper.swift in Sources */,
 				654CD28D2C156F80001DB28F /* GroupBox.swift in Sources */,
 				654CD2902C1578E7001DB28F /* TriggeredDifferentsAlerst.swift in Sources */,
 			);
