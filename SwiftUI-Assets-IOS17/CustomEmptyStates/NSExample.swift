@@ -7,6 +7,27 @@
 
 import SwiftUI
 
+struct StepOneView: View {
+    var body: some View {
+        RoundedRectangle(cornerRadius: 15)
+            .foregroundStyle(.blue)
+    }
+}
+
+struct StepTwoView: View {
+    var body: some View {
+        RoundedRectangle(cornerRadius: 15)
+            .foregroundStyle(.red)
+    }
+}
+
+struct StepThreeView: View {
+    var body: some View {
+        RoundedRectangle(cornerRadius: 15)
+            .foregroundStyle(.orange)
+    }
+}
+
 struct NSExample: View {
     //States
     @StateObject private var NSViewModel = NavigationStepperViewModel(totalStepes: 3, currentStep: 1)
@@ -21,15 +42,15 @@ struct NSExample: View {
             NavigationStepper(totalSteps: NSViewModel.totalSteps, currentStep: $NSViewModel.currentStep, isCompleted: $NSViewModel.isCompleted)
             
             switch NSViewModel.currentStep {
-                //            case 1:
-                //                StepOneView()
-                //                    .transition(.move(edge: .trailing).combined(with: .scale(scale: 0.85)))
-                //            case 2:
-                //                StepTwoView()
-                //                    .transition(.move(edge: .trailing).combined(with: .scale(scale: 0.85)))
-                //            case 3:
-                //                StepThreeView()
-                //                    .transition(.move(edge: .trailing).combined(with: .scale(scale: 0.85)))
+            case 1:
+                StepOneView()
+                    .transition(.move(edge: .trailing).combined(with: .scale(scale: 0.85)))
+            case 2:
+                StepTwoView()
+                    .transition(.move(edge: .trailing).combined(with: .scale(scale: 0.85)))
+            case 3:
+                StepThreeView()
+                    .transition(.move(edge: .trailing).combined(with: .scale(scale: 0.85)))
             default:
                 Text("Unknow Step")
             }//Switch
@@ -64,6 +85,7 @@ struct NSExample: View {
                 .disabled(NSViewModel.isBackStepDisabled)
             }//HStack
         }//VStack
+        .padding()
     }
 }
 

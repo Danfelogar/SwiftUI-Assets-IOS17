@@ -14,6 +14,9 @@
 		654CD28D2C156F80001DB28F /* GroupBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654CD28C2C156F80001DB28F /* GroupBox.swift */; };
 		654CD2902C1578E7001DB28F /* TriggeredDifferentsAlerst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654CD28F2C1578E7001DB28F /* TriggeredDifferentsAlerst.swift */; };
 		65BE8CB22C1C052400897E60 /* NSExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BE8CB12C1C052400897E60 /* NSExample.swift */; };
+		65CC35B02C336CBF009FE50E /* TextInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC35AF2C336CBF009FE50E /* TextInputField.swift */; };
+		65CC35B22C336CD8009FE50E /* TestingTextInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC35B12C336CD8009FE50E /* TestingTextInputField.swift */; };
+		65CC35B42C336E25009FE50E /* TestingInputsFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC35B32C336E25009FE50E /* TestingInputsFields.swift */; };
 		65D1EBB92C1A984600EBD005 /* NavigationStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D1EBB82C1A984600EBD005 /* NavigationStepper.swift */; };
 		721235452BF3185000B3C4DE /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721235442BF3185000B3C4DE /* BarChart.swift */; };
 		72810BB32BF294CE00AB634C /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72810BB22BF294CE00AB634C /* PieChart.swift */; };
@@ -40,6 +43,9 @@
 		654CD28C2C156F80001DB28F /* GroupBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBox.swift; sourceTree = "<group>"; };
 		654CD28F2C1578E7001DB28F /* TriggeredDifferentsAlerst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggeredDifferentsAlerst.swift; sourceTree = "<group>"; };
 		65BE8CB12C1C052400897E60 /* NSExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSExample.swift; sourceTree = "<group>"; };
+		65CC35AF2C336CBF009FE50E /* TextInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputField.swift; sourceTree = "<group>"; };
+		65CC35B12C336CD8009FE50E /* TestingTextInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingTextInputField.swift; sourceTree = "<group>"; };
+		65CC35B32C336E25009FE50E /* TestingInputsFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestingInputsFields.swift; path = ../../../../.Trashes/501/TestingInputsFields.swift; sourceTree = "<group>"; };
 		65D1EBB82C1A984600EBD005 /* NavigationStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStepper.swift; sourceTree = "<group>"; };
 		721235442BF3185000B3C4DE /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
 		72810BB22BF294CE00AB634C /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
@@ -101,6 +107,16 @@
 				654CD28F2C1578E7001DB28F /* TriggeredDifferentsAlerst.swift */,
 			);
 			path = TriggeredDifferentsAlerst;
+			sourceTree = "<group>";
+		};
+		65CC35A72C333D1C009FE50E /* CustomInputField */ = {
+			isa = PBXGroup;
+			children = (
+				65CC35B32C336E25009FE50E /* TestingInputsFields.swift */,
+				65CC35AF2C336CBF009FE50E /* TextInputField.swift */,
+				65CC35B12C336CD8009FE50E /* TestingTextInputField.swift */,
+			);
+			path = CustomInputField;
 			sourceTree = "<group>";
 		};
 		65D1EBBA2C1A985000EBD005 /* StepperComponent */ = {
@@ -166,6 +182,7 @@
 		72FB2AE02B7DBCA400A40FCB /* SwiftUI-Assets-IOS17 */ = {
 			isa = PBXGroup;
 			children = (
+				65CC35A72C333D1C009FE50E /* CustomInputField */,
 				65D1EBBA2C1A985000EBD005 /* StepperComponent */,
 				72C41CF82BFAA397003F0875 /* CustomEmptyStates */,
 				721235462BF3186000B3C4DE /* BarChart */,
@@ -258,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72A4AB7E2B8E750A0037EE3A /* ModelGlobal.swift in Sources */,
+				65CC35B42C336E25009FE50E /* TestingInputsFields.swift in Sources */,
 				65BE8CB22C1C052400897E60 /* NSExample.swift in Sources */,
 				72D12E572B8DAE2600EF3FF5 /* PhotoPicker.swift in Sources */,
 				654CD2812C1540BA001DB28F /* ToogleCustom.swift in Sources */,
@@ -268,7 +286,9 @@
 				72F72AFE2BF2836B00230538 /* TipKitExampleApp.swift in Sources */,
 				654CD28B2C1567E1001DB28F /* StaticGrid.swift in Sources */,
 				721235452BF3185000B3C4DE /* BarChart.swift in Sources */,
+				65CC35B02C336CBF009FE50E /* TextInputField.swift in Sources */,
 				72C41CF72BFAA38D003F0875 /* CustomEmptyStates.swift in Sources */,
+				65CC35B22C336CD8009FE50E /* TestingTextInputField.swift in Sources */,
 				72FB2AE42B7DBCA400A40FCB /* SuperPowerScrollViews.swift in Sources */,
 				72F72AFC2BF280B900230538 /* AddColorTip.swift in Sources */,
 				72810BB32BF294CE00AB634C /* PieChart.swift in Sources */,
