@@ -12,14 +12,16 @@ import TipKit
 struct SwiftUI_Assets_IOS17App: App {
     var body: some Scene {
         WindowGroup {
-            TipKit()
-                .task {
-                    try? Tips.resetDatastore()
-                    try? Tips.configure([
-//                        .displayFrequency(.inmediate)
-                        .datastoreLocation(.applicationDefault)
-                    ])
-                }
+            ListsDrag_Drop()
+//            TextInputFieldsTesting()
+//            TipKit()
+//                .task {
+//                    try? Tips.resetDatastore()
+//                    try? Tips.configure([
+////                        .displayFrequency(.inmediate)
+//                        .datastoreLocation(.applicationDefault)
+//                    ])
+//                }
         }
     }
 }
