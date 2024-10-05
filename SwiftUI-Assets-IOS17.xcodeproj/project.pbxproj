@@ -15,6 +15,7 @@
 		654CD2902C1578E7001DB28F /* TriggeredDifferentsAlerst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654CD28F2C1578E7001DB28F /* TriggeredDifferentsAlerst.swift */; };
 		6552B07B2C84CDCF00E2FA5B /* FixLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6552B07A2C84CDCF00E2FA5B /* FixLists.swift */; };
 		6552B07E2C84D86D00E2FA5B /* ListsDrag&Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6552B07D2C84D86D00E2FA5B /* ListsDrag&Drop.swift */; };
+		658CCA712CB1F87C007B4B96 /* BackwardCompatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658CCA702CB1F87C007B4B96 /* BackwardCompatibility.swift */; };
 		65BE8CB22C1C052400897E60 /* NSExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BE8CB12C1C052400897E60 /* NSExample.swift */; };
 		65CC35B02C336CBF009FE50E /* TextInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC35AF2C336CBF009FE50E /* TextInputField.swift */; };
 		65CC35B22C336CD8009FE50E /* TestingTextInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC35B12C336CD8009FE50E /* TestingTextInputField.swift */; };
@@ -45,6 +46,7 @@
 		654CD28F2C1578E7001DB28F /* TriggeredDifferentsAlerst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggeredDifferentsAlerst.swift; sourceTree = "<group>"; };
 		6552B07A2C84CDCF00E2FA5B /* FixLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixLists.swift; sourceTree = "<group>"; };
 		6552B07D2C84D86D00E2FA5B /* ListsDrag&Drop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListsDrag&Drop.swift"; sourceTree = "<group>"; };
+		658CCA702CB1F87C007B4B96 /* BackwardCompatibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardCompatibility.swift; sourceTree = "<group>"; };
 		65BE8CB12C1C052400897E60 /* NSExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSExample.swift; sourceTree = "<group>"; };
 		65CC35AF2C336CBF009FE50E /* TextInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputField.swift; sourceTree = "<group>"; };
 		65CC35B12C336CD8009FE50E /* TestingTextInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingTextInputField.swift; sourceTree = "<group>"; };
@@ -127,6 +129,14 @@
 			path = "ListsDrag&Drop";
 			sourceTree = "<group>";
 		};
+		658CCA6F2CB1F860007B4B96 /* BackwardCompatibility */ = {
+			isa = PBXGroup;
+			children = (
+				658CCA702CB1F87C007B4B96 /* BackwardCompatibility.swift */,
+			);
+			path = BackwardCompatibility;
+			sourceTree = "<group>";
+		};
 		65CC35A72C333D1C009FE50E /* CustomInputField */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +209,7 @@
 		72FB2AE02B7DBCA400A40FCB /* SwiftUI-Assets-IOS17 */ = {
 			isa = PBXGroup;
 			children = (
+				658CCA6F2CB1F860007B4B96 /* BackwardCompatibility */,
 				6552B07C2C84D79F00E2FA5B /* ListsDrag&Drop */,
 				6552B0792C84CDA500E2FA5B /* FixLists */,
 				65CC35A72C333D1C009FE50E /* CustomInputField */,
@@ -301,6 +312,7 @@
 				72D4CC2B2BDF16F700B82159 /* APICalls.swift in Sources */,
 				72B52E352B7E94360009A03E /* LoadRemoteImgFromNetwork.swift in Sources */,
 				72A4AB7C2B8E6B190037EE3A /* SearchBar.swift in Sources */,
+				658CCA712CB1F87C007B4B96 /* BackwardCompatibility.swift in Sources */,
 				72FF66C62BA68DC1008739D0 /* Playground.swift in Sources */,
 				72F72AFE2BF2836B00230538 /* TipKitExampleApp.swift in Sources */,
 				654CD28B2C1567E1001DB28F /* StaticGrid.swift in Sources */,
@@ -460,6 +472,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -489,6 +502,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
