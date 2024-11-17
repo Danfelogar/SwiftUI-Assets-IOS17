@@ -16,7 +16,9 @@
 		6552B07B2C84CDCF00E2FA5B /* FixLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6552B07A2C84CDCF00E2FA5B /* FixLists.swift */; };
 		6552B07E2C84D86D00E2FA5B /* ListsDrag&Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6552B07D2C84D86D00E2FA5B /* ListsDrag&Drop.swift */; };
 		658CCA712CB1F87C007B4B96 /* BackwardCompatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658CCA702CB1F87C007B4B96 /* BackwardCompatibility.swift */; };
+		65AE6E5F2CEAA4BF00E150F4 /* ViewmodifiersAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AE6E5E2CEAA4BF00E150F4 /* ViewmodifiersAd.swift */; };
 		65BE8CB22C1C052400897E60 /* NSExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BE8CB12C1C052400897E60 /* NSExample.swift */; };
+		65C443302CEAA96200CDC00B /* ButtonStyleAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C4432F2CEAA96200CDC00B /* ButtonStyleAd.swift */; };
 		65CC35B02C336CBF009FE50E /* TextInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC35AF2C336CBF009FE50E /* TextInputField.swift */; };
 		65CC35B22C336CD8009FE50E /* TestingTextInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC35B12C336CD8009FE50E /* TestingTextInputField.swift */; };
 		65D1EBB92C1A984600EBD005 /* NavigationStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D1EBB82C1A984600EBD005 /* NavigationStepper.swift */; };
@@ -47,7 +49,9 @@
 		6552B07A2C84CDCF00E2FA5B /* FixLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixLists.swift; sourceTree = "<group>"; };
 		6552B07D2C84D86D00E2FA5B /* ListsDrag&Drop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListsDrag&Drop.swift"; sourceTree = "<group>"; };
 		658CCA702CB1F87C007B4B96 /* BackwardCompatibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardCompatibility.swift; sourceTree = "<group>"; };
+		65AE6E5E2CEAA4BF00E150F4 /* ViewmodifiersAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewmodifiersAd.swift; sourceTree = "<group>"; };
 		65BE8CB12C1C052400897E60 /* NSExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSExample.swift; sourceTree = "<group>"; };
+		65C4432F2CEAA96200CDC00B /* ButtonStyleAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleAd.swift; sourceTree = "<group>"; };
 		65CC35AF2C336CBF009FE50E /* TextInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputField.swift; sourceTree = "<group>"; };
 		65CC35B12C336CD8009FE50E /* TestingTextInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingTextInputField.swift; sourceTree = "<group>"; };
 		65D1EBB82C1A984600EBD005 /* NavigationStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStepper.swift; sourceTree = "<group>"; };
@@ -137,6 +141,15 @@
 			path = BackwardCompatibility;
 			sourceTree = "<group>";
 		};
+		65AE6E5A2CEAA46800E150F4 /* ViewModifiers_Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				65AE6E5E2CEAA4BF00E150F4 /* ViewmodifiersAd.swift */,
+				65C4432F2CEAA96200CDC00B /* ButtonStyleAd.swift */,
+			);
+			path = ViewModifiers_Advanced;
+			sourceTree = "<group>";
+		};
 		65CC35A72C333D1C009FE50E /* CustomInputField */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +233,7 @@
 				654CD2852C154608001DB28F /* LazyGridView */,
 				72F72AFA2BF2807400230538 /* TipKit */,
 				654CD2822C1540C5001DB28F /* Toggle */,
+				65AE6E5A2CEAA46800E150F4 /* ViewModifiers_Advanced */,
 				654CD28E2C156F88001DB28F /* GroupBox&Customizations */,
 				654CD2912C1578F1001DB28F /* TriggeredDifferentsAlerst */,
 				72FB2AE12B7DBCA400A40FCB /* SwiftUI_Assets_IOS17App.swift */,
@@ -322,9 +336,11 @@
 				65CC35B22C336CD8009FE50E /* TestingTextInputField.swift in Sources */,
 				72FB2AE42B7DBCA400A40FCB /* SuperPowerScrollViews.swift in Sources */,
 				72F72AFC2BF280B900230538 /* AddColorTip.swift in Sources */,
+				65AE6E5F2CEAA4BF00E150F4 /* ViewmodifiersAd.swift in Sources */,
 				6552B07B2C84CDCF00E2FA5B /* FixLists.swift in Sources */,
 				72810BB32BF294CE00AB634C /* PieChart.swift in Sources */,
 				650F1AEC2C1BD1CA0086F89A /* NavigationStepperViewModel.swift in Sources */,
+				65C443302CEAA96200CDC00B /* ButtonStyleAd.swift in Sources */,
 				72FB2AE22B7DBCA400A40FCB /* SwiftUI_Assets_IOS17App.swift in Sources */,
 				654CD2842C1545FB001DB28F /* LazyGridView.swift in Sources */,
 				72F72AF92BF276B600230538 /* TipKit.swift in Sources */,

@@ -68,6 +68,8 @@ struct LoadRemoteImgFromNetwork: View {
                 Image(systemName: "ant.circle.fill").iconModifier()
             case .empty:
                 Image(systemName: "photo.circle.fill").iconModifier()
+            @unknown default:
+                Image(systemName: "photo.circle.fill").iconModifier()
             }
         }
         .padding(40)
